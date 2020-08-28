@@ -10,12 +10,3 @@ class User(models.Model):
 
     def __str__(self):
         return self.user_email
-
-    def get_email(self):
-        return self.user_email
-    
-    def get_name(self):
-        return self.user_name
-
-    def get_signup_date(self):
-        return self.user_signup_date
