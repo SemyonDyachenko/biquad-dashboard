@@ -1,2 +1,5 @@
-./db.py
-.pyc
+db.py
+*.pyc
+*.sqlite3
+*.db
+__pycache__/
